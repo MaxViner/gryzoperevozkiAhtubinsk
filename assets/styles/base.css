@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,400;8..144,500;8..144,600&family=Roboto:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,400;8..144,500;8..144,600&family=Roboto:wght@100;400;500;700&display=swap');
+@import url('./fonts.css');
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --family-h: 'Montserrat', sans-serif;
+    --family: 'Open Sans', sans-serif;
+    --main-white:white;
+    --main-black:black;
+    --acceint-color:rgba(24, 24, 188, 0.567);
+    --primary-bg:rgba(0, 0, 255, 0.119);
+    --secondary-bg:rgba(62, 62, 62, 0.742);
+    --secondary-text:rgb(34, 107, 244);
+    --swiper-navigation-color: rgba(0, 0, 255, 0.459);
+}
+
+.swiper-button-prev:active, .swiper-button-next:active{
+    color: red;
+}
+
+
+body {
+    color: var(--colors-text);
+    background-color: var(--colors-bg);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+a{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: var(--colors-text);
+}
+h1,
+h2,
+h3 {
+    font-family: var(--family-h);
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+
+h3 {
+    font-size: 24px;
+    color: var(--third-accent-color-default);
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+h4 {
+    font-size: 18px;
+    font-family: var(--family);
+    color: #333;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-fe {
+    justify-content: flex-end;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-start {
+    align-items: flex-start;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.ta-left {
+    text-align: left;
+    text-align: -webkit-left;
+    text-align: -moz-left;
+}
+
+.ta-right {
+    text-align: right;
+    text-align: -webkit-right;
+    text-align: -moz-right;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    display: none;
+}
